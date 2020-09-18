@@ -7,3 +7,4 @@
 ## Credits
 
 [Mapbox](https://www.mapbox.com/) powers the map's tileset, [Google Cloud Firestore](https://firebase.google.com/docs/firestore) hosts our database, and [jsPDF](https://github.com/MrRio/jsPDF) generates PDFs.
+Thank You [Chicago DSA](https://www.chicagodsa.org/) for making this happen!

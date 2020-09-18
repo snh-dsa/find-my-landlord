@@ -17,8 +17,8 @@ var searchIndex = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/sear
 // Map tiles
 var tiles = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/features-08-09-2020-05-48-PM/{z}/{x}/{y}.pbf";
 
-// Mapbox key
-mapboxgl.accessToken = "pk.eyJ1IjoibHVjaWVubGl6bGVwaW9yeiIsImEiOiJja2M2YTN3dG8wYmZlMnp0ZXBzZzJuM3JsIn0.n6bA8boNS3LQW1izwa6MKg";
+// SNHDSA Mapbox key
+mapboxgl.accessToken = "pk.eyJ1Ijoic25oZHNhIiwiYSI6ImNrZTk3cmphMTAxc3Yyc21vOHgyMDF3MmgifQ.Szkc3p1PP4JTZekcIG4MMQ";
 
 // Colors
 var dsaRed = "#ec1f27";

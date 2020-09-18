@@ -1,5 +1,5 @@
 # Find My Landlord
-[SNH DSA](https://www.snhdsa.org/), and local allies have partnered to provide NH tenants the ability to:
+[SNH DSA](https://www.snhdsa.org/), and [Chicago DSA](https://www.chicagodsa.org/) have partnered to provide NH tenants the ability to:
 - Look up any registered rental property in NH
 - View the rental's owner, browse related properties, and download these as a PDF
 - Explore the density of mega-landlord properties across neighborhoods

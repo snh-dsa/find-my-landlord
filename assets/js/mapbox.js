@@ -1,8 +1,8 @@
 // Set map defaults
 var map = new mapboxgl.Map({
 		container: "map",
-		style: "mapbox://styles/lucienlizlepiorz/ckd61fpi915jk1ioyhcpvd10y",
-		center: [-87.6441, 41.8846], // Haymarket Square
+		style: "mapbox://styles/snhdsa/cke97uz570pxx19nym9adakau",
+		center: [-71.460982, 42.987913],
 		zoom: 12,
 		attributionControl: false
 	});

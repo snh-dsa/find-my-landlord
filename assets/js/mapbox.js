@@ -2,7 +2,7 @@
 var map = new mapboxgl.Map({
 		container: "map",
 		style: "mapbox://styles/snhdsa/cke97uz570pxx19nym9adakau",
-		center: [-71.460982, 42.987913],
+		center: [-71.450202, 42.981783],
 		zoom: 13.19,
 		attributionControl: false
 	});

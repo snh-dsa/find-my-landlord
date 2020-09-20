@@ -11,7 +11,7 @@ var unitColumn = "Unit Count from Department of Buildings";
 var relativeSizeColumn = "Relative Size";
 
 // Database reference
-var databaseCollectionName = "features-08-09-2020-05-48-PM";
+var databaseCollectionName = "fmll-test";
 // JSON search
 var searchIndex = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/search-index-08-09-2020-05-48-PM.json";
 // Map tiles

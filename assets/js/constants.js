@@ -15,7 +15,7 @@ var databaseCollectionName = "features-08-09-2020-05-48-PM";
 // JSON search
 var searchIndex = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/search-index-08-09-2020-05-48-PM.json";
 // Map tiles
-var tiles = "https://api.mapbox.com/v4/snhdsa.ckfbbau5l0fq92etaeyydzkzm-3ymow/1/0/0.mvt?access_token=pk.eyJ1Ijoic25oZHNhIiwiYSI6ImNrZTk3cmphMTAxc3Yyc21vOHgyMDF3MmgifQ.Szkc3p1PP4JTZekcIG4MMQ";
+var tiles = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/features-08-09-2020-05-48-PM/{z}/{x}/{y}.pbf";
 
 // SNHDSA Mapbox key
 mapboxgl.accessToken = "pk.eyJ1Ijoic25oZHNhIiwiYSI6ImNrZTk3cmphMTAxc3Yyc21vOHgyMDF3MmgifQ.Szkc3p1PP4JTZekcIG4MMQ";

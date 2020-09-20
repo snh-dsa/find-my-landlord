@@ -1,13 +1,13 @@
 // Initialize Cloud Firestore through Firebase
 var firebaseConfig = {
-	apiKey: "AIzaSyDfYrR3qErDogK_rqhzn49jlgshrJ6O_ic",
-	authDomain: "find-my-landlord.firebaseapp.com",
-	databaseURL: "https://find-my-landlord.firebaseio.com",
-	projectId: "find-my-landlord",
-	storageBucket: "find-my-landlord.appspot.com",
-	messagingSenderId: "470878094978",
-	appId: "1:470878094978:web:ebc5b2350e17f590af569b",
-	measurementId: "G-C7MQBH19E6"
+    apiKey: "AIzaSyAVaPvI1xLiL3OEWsY-MdAhz2MHzfxs_AE",
+    authDomain: "fmll-test.firebaseapp.com",
+    databaseURL: "https://fmll-test.firebaseio.com",
+    projectId: "fmll-test",
+    storageBucket: "fmll-test.appspot.com",
+    messagingSenderId: "710531184838",
+    appId: "1:710531184838:web:bc5fb8d331d89308f83fc7",
+    measurementId: "G-JPYMJDMX5P"
 };
 
 // Initialize Firebase

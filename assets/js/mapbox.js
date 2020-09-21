@@ -60,10 +60,10 @@ map.on("load", function() {
 			map.addSource("propertyData", {
 				type: "vector",
 				maxzoom: 14, // Allows overzoom
-				tiles: [tiles],
-				promoteId: propertyIndexColumn
-				// url: "mapbox://snhdsa.ckfbpgbis1u1225qup0weve7y-9615e", // remove
-				// promoteId: propertyIndexColumn	// remove
+				//tiles: [tiles],
+				//promoteId: propertyIndexColumn
+				url: "mapbox://snhdsa.ckfbpgbis1u1225qup0weve7y-9615e", // remove
+				promoteId: propertyIndexColumn	// remove
 			});
 			
 			map.addLayer({

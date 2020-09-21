@@ -15,7 +15,7 @@ var databaseCollectionName = "features";
 // JSON search
 var searchIndex = "https://raw.githubusercontent.com/snh-dsa/find-my-landlord/gh-pages/SearchIndex.json"; //Ward 5 Test Search Index
 // Map tiles
-var tiles = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/features-08-09-2020-05-48-PM/{z}/{x}/{y}.pbf";
+var tiles = "mapbox://snhdsa.ckfbpgbis1u1225qup0weve7y-9615e" //"https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/features-08-09-2020-05-48-PM/{z}/{x}/{y}.pbf";
 
 // SNHDSA Mapbox key
 mapboxgl.accessToken = "pk.eyJ1Ijoic25oZHNhIiwiYSI6ImNrZTk3cmphMTAxc3Yyc21vOHgyMDF3MmgifQ.Szkc3p1PP4JTZekcIG4MMQ";

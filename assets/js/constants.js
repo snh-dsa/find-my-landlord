@@ -13,7 +13,7 @@ var relativeSizeColumn = "Relative Size";
 // Database reference
 var databaseCollectionName = "fmll-test";
 // JSON search
-var searchIndex = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/search-index-08-09-2020-05-48-PM.json";
+var searchIndex = "https://raw.githubusercontent.com/snh-dsa/find-my-landlord/gh-pages/SearchIndex.json"; //Ward 5 Test Search Index
 // Map tiles
 var tiles = "https://find-my-landlord.nyc3.cdn.digitaloceanspaces.com/features-08-09-2020-05-48-PM/{z}/{x}/{y}.pbf";
 

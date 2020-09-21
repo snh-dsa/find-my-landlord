@@ -11,7 +11,7 @@ var unitColumn = "Unit Count from Department of Buildings";
 var relativeSizeColumn = "Relative Size";
 
 // Database reference
-var databaseCollectionName = "fmll-test";
+var databaseCollectionName = "features";
 // JSON search
 var searchIndex = "https://raw.githubusercontent.com/snh-dsa/find-my-landlord/gh-pages/SearchIndex.json"; //Ward 5 Test Search Index
 // Map tiles

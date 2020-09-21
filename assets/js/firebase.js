@@ -3,6 +3,7 @@ var firebaseConfig = {
     apiKey: "AIzaSyAVaPvI1xLiL3OEWsY-MdAhz2MHzfxs_AE",
     authDomain: "fmll-test.firebaseapp.com",
     databaseURL: "https://fmll-test.firebaseio.com",
+    projectId: "fmll-test",
     storageBucket: "fmll-test.appspot.com",
     messagingSenderId: "710531184838",
     appId: "1:710531184838:web:bc5fb8d331d89308f83fc7",

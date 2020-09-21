@@ -2,7 +2,7 @@
 var propertyAddressColumn = "Property Address";
 var communityAreaColumn = "Community Area";
 var propertyIndexColumn = "Property Index Number";
-var taxpayerColumn = "Taxpayer";
+var taxpayerColumn = "Tax Payer";
 var taxpayerMatchCodeColumn = "Taxpayer Match Code";
 var affiliatedWithColumn = "Affiliated With";
 var additionalDetailsColumn = "Additional Details";

@@ -62,7 +62,7 @@ map.on("load", function() {
 				maxzoom: 14, // Allows overzoom
 				//tiles: [tiles],
 				//promoteId: propertyIndexColumn
-				url: "mapbox://snhdsa.ckfbpgbis1u1225qup0weve7y-9615e", // remove
+				url: "mapbox://snhdsa.8ma4asow", // remove
 				promoteId: propertyIndexColumn	// remove
 			});
 			

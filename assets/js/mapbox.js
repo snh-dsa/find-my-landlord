@@ -70,7 +70,7 @@ map.on("load", function() {
 				"id": "allProperties",
 				"type": "circle",
 				"source": "propertyData",
-				"source-layer": "Ward5-Test-9202020-7",
+				"source-layer": "features",
 				"paint": {
 					"circle-radius": defaultRadius,
 					"circle-color": defaultColors,

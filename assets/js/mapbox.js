@@ -70,7 +70,7 @@ map.on("load", function() {
 				"id": "allProperties",
 				"type": "circle",
 				"source": "propertyData",
-				"source-layer": "features",
+				"source-layer": "features-3af05o",
 				"paint": {
 					"circle-radius": defaultRadius,
 					"circle-color": defaultColors,

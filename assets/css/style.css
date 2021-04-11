@@ -80,6 +80,31 @@ button {
 	margin: .625rem 0 0 0;
 }
 
+#persistent-button {
+  	color: black !important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+	z-index: 1;
+	position: relative;
+	margin: auto;
+	width: 96.5%;
+	text-align: center;
+	background: rgba(250,212,52,1);
+}
+
+#persistent-button-container {
+ 	width: 100%;
+ 	/*padding: .625rem;*/
+ 	background-color: #fff;
+ 	position: relative;
+ 	display: block;
+ 	padding: 0;
+	overflow: hidden;
+}
+
+#persistent-button-text {
+ 	color: black !important;
+}
+
 h5 {
 	margin: 0 0 1rem 0;
 }

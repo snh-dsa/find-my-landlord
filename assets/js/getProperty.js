@@ -285,17 +285,25 @@ function renderSelectedInfo(feature) {
 	var dataInfoLink = document.getElementById("data-info-link");
 	attachModal(dataInfoLink, "How was this data collected?", dataInfoContent);
 
-	// Additional details
+		// Additional details
 	var additionalDetailsLink = document.getElementById("additional-details-link");
+	var requestAdditionalDetailsLink = document.getElementById("request-additional-details-link");
 	// Check if data exists
 	if (additionalDetails) {
-		// Show link
+		// Show additional details button
 		additionalDetailsLink.style.display = "block";
+		// Hide request additional details button
+		requestAdditionalDetailsLink.style.display = "none";
 		// Attach modal
 		var additionalDetailsLink = document.getElementById("additional-details-link");
 		attachModal(additionalDetailsLink, "Additional property details", additionalDetails);
 	} else {
-		// Hide link
-		additionalDetailsLink.style.display = "block";
+		// Hide additional details button
+		additionalDetailsLink.style.display = "none";
+		// Show request additional details button
+		requestAdditionalDetailsLink.style.display = "block";
+		// Attach modal
+		var requestAdditionalDetailsLink = document.getElementById("request-additional-details-link");
+		attachModal(requestAdditionalDetailsLink, "Request additional property details", requestAdditionalDetailsContent);
 	};
 };

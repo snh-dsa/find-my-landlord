@@ -169,7 +169,8 @@ function renderSelectedInfo(feature) {
 	var owned = feature.properties[ownedColumn];
 	var taxpayer = feature.properties[taxpayerColumn];
 	var taxpayerMatchCode = feature.properties[taxpayerMatchCodeColumn];
-	var additionalDetails = true; //feature.properties[additionalDetailsColumn];
+	var additionalDetails = false; // - remove on on prod date upload
+	//var additionalDetails = feature.properties[additionalDetailsColumn]; - enable on prod date upload
 
 	// Clear counter and list HTML
 	searchResultsCounter.innerHTML = "";

@@ -296,6 +296,6 @@ function renderSelectedInfo(feature) {
 		attachModal(additionalDetailsLink, "Additional property details", additionalDetails);
 	} else {
 		// Hide link
-		additionalDetailsLink.style.display = "none";
+		additionalDetailsLink.style.display = "block";
 	};
 };

@@ -4,4 +4,4 @@ var requestAdditionalDetailsContent = `<h5>Note: properties may have changed own
 
 <p>test paragraph two</p>
 
-<button>submit</button>
+<button>submit</button>"

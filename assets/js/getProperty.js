@@ -169,7 +169,7 @@ function renderSelectedInfo(feature) {
 	var owned = feature.properties[ownedColumn];
 	var taxpayer = feature.properties[taxpayerColumn];
 	var taxpayerMatchCode = feature.properties[taxpayerMatchCodeColumn];
-	var additionalDetails = feature.properties[additionalDetailsColumn];
+	var additionalDetails = false; //feature.properties[additionalDetailsColumn];
 
 	// Clear counter and list HTML
 	searchResultsCounter.innerHTML = "";

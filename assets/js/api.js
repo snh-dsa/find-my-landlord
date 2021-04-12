@@ -14,4 +14,4 @@ function anPropReq () {
 	xhr.send(outgoingMessage);
 };
 
-document.getElementById("request-additional-details-link").onclick = 'anPropReq()';
+document.getElementById("request-additional-details-link").onclick=anPropReq();

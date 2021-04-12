@@ -1,3 +1,5 @@
+var App_Global_Selected_Feature;
+
 function searchProperty(id) {
 	var feature;
 
@@ -164,6 +166,7 @@ function renderSelectedMarker(feature) {
 };
 
 function renderSelectedInfo(feature) {
+	
 	var address = feature.properties[propertyAddressColumn];
 	var affiliatedWith = feature.properties[affiliatedWithColumn];
 	var owned = feature.properties[ownedColumn];
@@ -172,6 +175,10 @@ function renderSelectedInfo(feature) {
 	var additionalDetails = false; // - remove on on prod date upload
 	//var additionalDetails = feature.properties[additionalDetailsColumn]; - enable on prod date upload
 
+	// make current feature available globally
+	App_Global_Selected_Feature=feature;
+	console.log("selectedFeature set to " + feature.properties[propertyAddressColumn]);
+	
 	// Clear counter and list HTML
 	searchResultsCounter.innerHTML = "";
 	searchResultsList.innerHTML = "";
@@ -308,3 +315,5 @@ function renderSelectedInfo(feature) {
 		attachModal(requestAdditionalDetailsLink, "Request additional property details", requestAdditionalDetailsContent);
 	};
 };
+
+

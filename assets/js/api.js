@@ -13,3 +13,5 @@ function anPropReq () {
 	xhr.open("POST", url, true);
 	xhr.send(outgoingMessage);
 };
+
+document.getElementById("request-additional-details-link").onclick = 'anPropReq()';

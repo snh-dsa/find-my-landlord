@@ -4,7 +4,7 @@ function anPropReq () {
 	url = "https://northamerica-northeast1-vivid-alchemy-109421.cloudfunctions.net/apr";
 	
 	data = App_Global_Selected_Feature;
-    data.api = {};
+    	data.api = {};
 	data.api.flag = "apr";
 	
 	outgoingMessage = JSON.stringify(data);

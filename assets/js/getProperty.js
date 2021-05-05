@@ -304,7 +304,7 @@ function renderSelectedInfo(feature) {
 		requestAdditionalDetailsLink.style.display = "none";
 		// Attach modal
 		var additionalDetailsLink = document.getElementById("additional-details-link");
-		attachModal(additionalDetailsLink, "Additional property details", additionalDetails);
+		// attachModal(additionalDetailsLink, "Additional property details", additionalDetails);
 	} else {
 		// Hide additional details button
 		additionalDetailsLink.style.display = "none";
@@ -312,7 +312,7 @@ function renderSelectedInfo(feature) {
 		requestAdditionalDetailsLink.style.display = "block";
 		// Attach modal
 		var requestAdditionalDetailsLink = document.getElementById("request-additional-details-link");
-		attachModal(requestAdditionalDetailsLink, "Request additional property details", requestAdditionalDetailsContent);
+		// attachModal(requestAdditionalDetailsLink, "Request additional property details", requestAdditionalDetailsContent);
 	};
 };
 
